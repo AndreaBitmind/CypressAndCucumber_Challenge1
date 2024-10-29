@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.2",
+    "ts-loader": "^9.5.1"
+  },
+  "name": "2.udemyautomation",
+  "version": "1.0.0",
+  "description": "Cypress Cucumber Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrea M",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "cypress": "^12.14.0"
+  },
+  "cypress-cucumber-preprocessor":{
+    "stepDefinitions":"cypress/support/step_definitions/**/*.js"
+  }
+}
